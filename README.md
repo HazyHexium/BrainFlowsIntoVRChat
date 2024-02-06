@@ -14,7 +14,7 @@ The [BrainFlow](https://BrainFlow.org) library provides a uniform API that is de
 
 ## Instructions
 
-1. Download this project to a folder and remember its folder path
+1. Download [BFiVRC](https://github.com/ChilloutCharles/BrainFlowsIntoVRChat/releases/tag/0.2.1) to a folder and copy its folder path
 2. Install [Python 3.11.5](https://www.python.org/downloads/release/python-3115/)
 3. Open the command prompt by typing `cmd` in the start menu
 4. Navigate to the project's path within the command prompt. 
@@ -26,7 +26,7 @@ The [BrainFlow](https://BrainFlow.org) library provides a uniform API that is de
 
 ## OSC Avatar Parameter Schema
 
-Here are the various avatar parameters sent to VRChat. Neurofeedback scores range from -1 to 1 for signed floats, 0 to 1 for unsigned, with higher and lower values corresponding to higher and lower relax/focus scores. Depending on the board you're using, heartrate, respiration and battery information might be available. Power Band numbers are also sent per location as well, ranging from 0 to 1 averaging at 0.2. 
+Here are the various avatar parameters sent to VRChat. Neurofeedback scores range from -1 to 1 for signed floats, 0 to 1 for positive (Pos), with higher and lower values corresponding to higher and lower relax/focus scores. Depending on the board you're using, heartrate, respiration and battery information might be available. Power Band numbers are also sent per location as well, ranging from 0 to 1 averaging at 0.2. 
 
 To use these parameters within VRChat, write the parameter name as a path. For example, to get the left side alpha value, the parameter name would be:
 - `BFI/PwrBands/Left/Alpha`
