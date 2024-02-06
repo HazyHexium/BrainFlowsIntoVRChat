@@ -19,7 +19,7 @@ The [BrainFlow](https://BrainFlow.org) library provides a uniform API that is de
 3. Open the command prompt by typing `cmd` in the start menu
 4. Navigate to the project's path within the command prompt. 
    - example: `cd "C:\Users\<YOUR USERNAME HERE>\Documents\GitHub\BrainFlowsIntoVRChat"` 
-5. Execute this command to install needed depedencies: `pip install -r requirements.txt`
+5. Execute this command to install needed depedencies: `py pip install -r requirements.txt`
 6. Look up your device's id: [Board IDs Page](https://brainflow.readthedocs.io/en/stable/UserAPI.html?highlight=MUSE_2016_BOARD#brainflow-board-shim)
 7. Turn on your headband
 8. Run the script `main.py` with your device id. The command for running with a [Muse 2 headband](https://choosemuse.com/muse-2/) would be: `python .\main.py --board-id 38`
